@@ -1,0 +1,45 @@
+body {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4.5rem;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 35%;
+}
+
+.table {
+    display: grid;
+    width: 50%;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 4rem auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: #0A6EBD;
+    font-size: 17px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+.table > div {
+  padding: 10px 0;
+} 
